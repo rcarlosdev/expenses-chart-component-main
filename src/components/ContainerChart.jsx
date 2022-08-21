@@ -1,7 +1,7 @@
 import React from "react";
 import BarItem from "./BarItem";
 
-function ContainerChar({ data }) {
+function Containerchart({ data }) {
   let maxValue = Math.max(...data.map(({ amount }) => amount));
 
   return (
@@ -15,12 +15,12 @@ function ContainerChar({ data }) {
       </div>
 
       <div className="container-content">
-        <div className="container-content-char">
-          <span className="container-content-char-title">
+        <div className="container-content-chart">
+          <span className="container-content-chart-title">
             Spending - Last 7 days
           </span>
 
-          <div className="container-content-char-bars">
+          <div className="container-content-chart-bars">
             {data.map((item) => (
               <BarItem
                 key={item.day}
@@ -48,4 +48,4 @@ function ContainerChar({ data }) {
   );
 }
 
-export default ContainerChar;
+export default Containerchart;

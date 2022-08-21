@@ -1,17 +1,17 @@
 import { useEffect, useState } from "react";
 
-import ContainerChar from "./components/ContainerChar";
+import ContainerChart from "./components/ContainerChart";
 import Footer from "./components/Footer";
 import data from "./data.json";
 import "./App.css";
 
 function App() {
-  const [dataChar, setDataChar] = useState([]);
+  const [dataChart, setDataChart] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
-      setDataChar(data);
+      setDataChart(data);
       setIsLoading(false);
     }, 2000);
   }, []);
@@ -25,7 +25,7 @@ function App() {
             <div className="loading-spinner"></div>
           </div>
         ) : (
-          <ContainerChar data={dataChar} />
+          <ContainerChart data={dataChart} />
         )}
       </div>
 

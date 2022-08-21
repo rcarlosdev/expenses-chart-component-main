@@ -8,7 +8,7 @@ function BarItem({ data, colorBg }) {
         height: `${data.amount}%`,
         boxShadow: `1px 1px 3px ${colorBg}`,
       }}
-      className="container-content-char-bars-item"
+      className="container-content-chart-bars-item"
       data-title={"$ " + data.amount}
     >
       <span className="no-select text-bar-item">{data.day}</span>
