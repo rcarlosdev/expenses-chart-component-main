@@ -14,7 +14,7 @@
 - Frontend Mentor - [@rcarlosdev](https://www.frontendmentor.io/profile/rcarlosdev)
 - Twitter - [@rcarlosdev](https://www.twitter.com/rcarlosdev)
 
-# Executing in development
+# Building the site
 
 1. Clone the repository
 2. Install dependencies
