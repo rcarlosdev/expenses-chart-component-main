@@ -17,13 +17,13 @@
 # Executing in development
 
 1. Clone the repository
-2. Execute
+2. Install dependencies
 
 ```bash
 npm install ó yarn install
 ```
 
-3. Execute in development
+3. Start a local server to preview the site
 
 ```bash
 npm run dev ó yarn dev
