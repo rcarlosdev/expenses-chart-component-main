@@ -11,7 +11,7 @@ function Containerchart({ data }) {
           <small>My balance</small>
           <h3>$921.48</h3>
         </div>
-        <img src="./logo.svg"></img>
+        <img src="./logo.svg" alt="logo"></img>
       </div>
 
       <div className="container-content">
