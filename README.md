@@ -20,7 +20,7 @@
 2. Install dependencies
 
 ```bash
-npm install ó yarn install
+npm install ó yarn
 ```
 
 3. Start a local server to preview the site
